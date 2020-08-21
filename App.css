@@ -1,0 +1,66 @@
+.App {
+
+  background: rgb(157, 161, 216);
+  width: 90%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(71, 98, 107);
+  color: white;
+}
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.buttons{
+  padding: 10px;
+  background: rgba(27, 231, 88, 0.815);
+  border: none;
+   margin: 5px;
+  border-radius: 5px;
+  color:black;
+  text-transform: capitalize;
+  cursor: pointer;
+
+}
+.input{
+  padding: 10px;
+  outline: none;
+  width: 70%;
+  border-radius: 5px;
+  
+  
+}
+.buttons:hover{
+  background:rgb(200, 223, 210);
+}
+
+::placeholder{
+  color:  rgb(71, 98, 107);;
+}
+.todoItem{
+  
+  
+}
+label{
+ 
+ 
+}
+.eachTodo{
+   border-bottom: 1px dotted black;
+   padding: 5px;
+   font-size: 1.1rem;
+   margin: 3px;
+   
+  
+}
+.eachTodo:hover{
+  background: rgb(229, 230, 240);
+}
